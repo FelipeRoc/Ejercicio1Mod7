@@ -5,14 +5,17 @@ class Persona {
 	public $Apellido;
 	public $Rut;
 
+//metodo mostrar rut de la persona.
 	public function mostrar_rut(){
 		 return "Mi Rut es ".$this->Rut;
 	}
 
+//metodo para mostrar saludo de la persona.
    public function saludar_persona(){
    		return "Hola, soy ".$this->Nombre." ".$this->Apellido;
    }
 
+//metodo para mostrar despedida de la persona.
 	 public function despedir_persona(){
 			 return "Se despide ".$this->Nombre." ".$this->Apellido;
 	 }
