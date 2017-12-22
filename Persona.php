@@ -5,10 +5,6 @@ class Persona {
 	public $Apellido;
 	public $Rut;
 
-	/*function __construct() {
-		echo "Persona Instanciada";
-	}*/
-
 	public function mostrar_rut(){
 		 return "Mi Rut es ".$this->Rut;
 	}
@@ -52,8 +48,7 @@ $obj = new Persona();
 $obj->setNombre("Felipe");
 $obj->setApellido("Roco");
 $obj->setRut("12345678-9");
-/*echo "<br>".$obj->getNombre();
-echo "<br>".$obj->getApellido();*/
+
 echo "<br>".$obj->saludar_persona();
 echo "<br>".$obj->despedir_persona();
 echo "<br>".$obj->mostrar_rut();
@@ -62,8 +57,7 @@ $per = new Persona();
 $per->setNombre("Gabriela");
 $per->setApellido("Lorca");
 $per->setRut("98765432-1");
-/*echo "<br>".$obj->getNombre();
-echo "<br>".$obj->getApellido();*/
+
 echo "<br>".$per->saludar_persona();
 echo "<br>".$per->despedir_persona();
 echo "<br>".$per->mostrar_rut();
