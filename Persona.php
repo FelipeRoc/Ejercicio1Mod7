@@ -52,16 +52,16 @@ $obj->setNombre("Felipe");
 $obj->setApellido("Roco");
 $obj->setRut("12345678-9");
 
-echo "<br>".$obj->saludar_persona();
+/*echo "<br>".$obj->saludar_persona();
 echo "<br>".$obj->despedir_persona();
-echo "<br>".$obj->mostrar_rut();
+echo "<br>".$obj->mostrar_rut();*/
 
 $per = new Persona();
 $per->setNombre("Gabriela");
 $per->setApellido("Lorca");
 $per->setRut("98765432-1");
 
-echo "<br>".$per->saludar_persona();
+/*echo "<br>".$per->saludar_persona();
 echo "<br>".$per->despedir_persona();
-echo "<br>".$per->mostrar_rut();
+echo "<br>".$per->mostrar_rut();*/
 ?>
